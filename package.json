@@ -28,12 +28,18 @@
     "stripe": "^8.209.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
     "@types/next-auth": "^3.15.0",
     "@types/node": "^17.0.21",
     "@types/prismic-dom": "^2.1.1",
     "@types/react": "^17.0.40",
+    "babel-jest": "^27.5.1",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
+    "jest": "^27.5.1",
+    "jest-dom": "^4.0.0",
     "node-sass": "^7.0.1",
     "sass": "^1.49.9",
     "slice-machine-ui": "^0.3.3",
