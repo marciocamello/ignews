@@ -43,3 +43,18 @@
         margin-top: 2.5rem;
     }
 }
+
+@media screen and (max-width: 768px){
+    .contentContainer{
+        flex-direction: column;
+
+        margin-top: 2rem;
+    }
+
+    .hero{
+        
+        button{
+            margin-bottom: 2.5rem;
+        }
+    }
+}

@@ -1,6 +1,11 @@
 .headerContainer{
     height: 5rem;
     border-bottom: 1px solid var(--gray-800);
+
+    @media screen and (max-width: 768px){
+
+        height: auto;
+    }
 }
 
 .headerContent{
@@ -54,5 +59,24 @@
 
     button {
         margin-left: auto;
+    }
+
+    @media screen and (max-width: 768px){
+
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+        nav{
+            margin-left: 0;
+            height: auto;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+
+        button{
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
     }
 }
